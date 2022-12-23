@@ -1,0 +1,25 @@
+#score
+{
+    font-size: 25px;
+    margin-right: 800px;
+}
+
+#timer
+{
+    font-size: 25px;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration:4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px pink}
+    to {box-shadow: 1px 1px 38px red;}
+}
